@@ -1,23 +1,21 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-
-public enum StatsChangeType
+[CreateAssetMenu(fileName = "DefaultPlayerInfo", menuName = "TopDownController/PlayerInfo/Default", order = 0)]
+public class PlayerInfo : ScriptableObject
 {
-    Add,
-    Multiple,
-    Override,
-}
+    [Header("Character Info")]
+    public string m_playerName;
+    public float m_playerSize;
+    public float m_health;
+    public float m_attack;
+    public float m_attackSpeed;
+    public float m_moveSpeed;
+    public float m_defense;
 
-
-[Serializable]
-public class PlayerInfo
-{
-    public StatsChangeType m_statsChangeType;
-
-    [Range(0, 100)] public int m_maxHealth;
-    [Range(0, 100)] public int m_maxStamina;
-    [Range(0.0f, 10.0f)] public int m_speed;
-
-    public AttackSO m_attackSO;
+    [Header("Knock Back Info")]
+    public bool isOnKnockback;
+    public float knockbackPower;
+    public float knockbackTime;
 }
