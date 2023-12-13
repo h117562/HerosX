@@ -10,18 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c55895e13c4851940ae3cd85d24ae905, type: 3}
-  m_Name: PlayerInfo
+  m_Name: TestPlayerData
   m_EditorClassIdentifier: 
-  m_playerName: HideOnBush
-  m_playerSize: 1
-  m_health: 100
-  m_attack: 10
-  m_attackSpeed: 1
-  m_moveSpeed: 1
-  m_defense: 5
-  target:
-    serializedVersion: 2
-    m_Bits: 0
-  isOnKnockback: 0
-  knockbackPower: 0
-  knockbackTime: 0
+  m_PlayerName: HideOnBush
+  m_PlayerSize: 1
+  m_Health: 100
+  m_AttackDamage: 10
+  m_AttackSpeed: 1
+  m_MoveSpeed: 1
+  m_Defense: 10

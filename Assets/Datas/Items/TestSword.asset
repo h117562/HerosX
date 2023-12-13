@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad0bd862d55aa714692fa2d96096b1dc, type: 3}
-  m_Name: Armor
+  m_Name: TestSword
   m_EditorClassIdentifier: 
-  Type: 1
-  m_itemId: 778
-  m_name: HeroArmor
-  m_description: This is a Armor
-  m_damage: 0
-  m_defense: 5
-  m_attackSpeed: 1
-  m_movementSpeed: 1
-  m_Image: {fileID: 21300040, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
+  m_Type: 0
+  m_ItemId: 777
+  m_ItemName: Test Sword
+  m_Description: This is Sword
+  m_Damage: 10
+  m_Defense: 0
+  m_AttackSpeed: 0
+  m_MovementSpeed: 0
+  m_Image: {fileID: 21300156, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}

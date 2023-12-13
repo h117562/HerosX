@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class HeroKnight : MonoBehaviour
+public class PlayerControl : MonoBehaviour
 {
     public Animator m_animator;
     public Rigidbody2D m_rigidbody;
